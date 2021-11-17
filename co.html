@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html tang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <title>PELIS21</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label class="lbl-menu" for="btn-menu">
+        <span id="spn1"></span>
+        <span id="spn2"></span>
+        <span id="spn3"></span>
+        </label>  
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nu.html">Nuestro trabajo</a>
+            <a href="ap.html">Apoyenos</a>
+            <a href="not.html">Noticias</a>
+            <a href="co.html">Contactos</a>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenedor">
+            <img src="img/logo.png">
+        </div>
+    </section>
+    <section id="blog">
+        <div class="contenedor">
+            <article>
+                <a name="3">
+                    <div class="reg">
+                        <form>
+                            <h3 class="titulo">Contactos!</h3>
+                            <label>Nombres: </label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombres"><br>
+                            <label>Apellidos: </label><br>
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellidos"><br>
+                            <label>Edad: </label><br>
+                            <input type="number" name="edad" id="edad" max="100"><br>
+                            <label>G-mail: </label><br>
+                            <input type="email" name="email" id="email" for="email" required>
+                            
+                            <input type="text"><br>
+                            <label>Escriba su comentario</label><br>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+                            <center><button type="button">Enviar</button>
+                            <button type="reset">Limpiar</button></center>
+                        </form>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="sociales">
+            <h3 class="icon-paw">SAGRADO CORAZÓN</h3>
+            <p>¿Ayuda? Whatsapp <a class=" icon-whatsapp" href="https://wa.me/65646930">+591 65646930 (BOL)</a></p>
+            <p><a href="con.html">Contactos</a></p>
+            <p><a href="nu.html">Nuestro trabajo</a></p>
+            <p><a href="not.html">Noticias</a></p>
+            <a class="icon-facebook-squared"></a>            
+            <a class="icon-twitter-squared"></a>
+            <p class="copy">&copy;2021 M&C</p>
+        </div>
+    </footer>
+</body>
+</html>
